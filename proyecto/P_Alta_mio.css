@@ -1,0 +1,196 @@
+.body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+
+}
+.bar{
+    display: flex;
+    background-color: #f44236;
+    height: 67px;
+    align-items: center;
+    box-shadow: 0px 2px 5px gray;
+}
+.bar_icon{
+    color: white;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+.bar_text{
+    color: white;
+    font-size: 21px;    
+    margin-left: 6%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content_buscar{
+    display: flex;
+    margin-top: 4%;
+}
+.content_buscar_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    width: 75%;
+}
+.content_buscar_1_partida{
+    display: flex;
+    align-items: center;
+
+}
+.content_buscar_1_destino{
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+}
+.content_buscar_2{
+    display: flex;
+    align-items: center;
+    margin-left: 6%;
+    color: #f44236;
+}
+
+.input_part{
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #f44236;
+    height: 33px;
+    width: 100%;
+    margin-left: 6%;
+    font-size: 14px;
+}
+.input_dest{
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #f44236;
+    height: 33px;
+    width: 100%;
+    margin-left: 6%;
+    font-size: 14px;
+}
+.content_rutas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+}
+.content_rutas_principal_text{
+    margin-left: 7%;
+    color: #747474;
+}
+.content_rutas_principal{
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px gray;
+    height: 98px;
+    width: 326px;
+    margin-top: 17px;  
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img_ruta{
+    width: 100%;
+    height: 90%;
+}
+.resumen{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    width: 100%;
+    margin-top: 5%;
+}
+.resumen_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 9px;
+    color: #747474;
+}
+.resumen_2{
+    color: #000000;
+    margin-left: 13%;
+    font-size: 14px;
+
+}
+.info_ruta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.info_ruta_1{
+    font-size: 13px;
+}
+.info_ruta_2{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+.ruta{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    font-size: 7px;
+    font-family: 'Roboto', bold;
+    background: rgb(199, 196, 7);
+    border-radius: 6px; 
+    align-items: center;
+    justify-content: center;
+}
+.ruta_text{
+    margin: 0;
+    color: black;
+}
+.content_rutas_otras_text{
+    margin-top: 4%; 
+    margin-left: 7%;
+    color: #747474;
+}
+.content_rutas_otras_1{
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px gray;
+    height: 98px;
+    width: 326px;
+    margin-top: 17px;  
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content_rutas_otras_2{
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px gray;
+    height: 98px;
+    width: 326px;
+    margin-top: 17px;  
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+.material-icons2{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #747474;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+.dir_walk{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+

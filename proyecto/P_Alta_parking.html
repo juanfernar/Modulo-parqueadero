@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Parqueadero</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="P_Alta_parking.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="interfaz2.js"></script>
+</head>
+<body class="body">
+    <div class="main">
+        <div class="bar">
+            <div class="bar_icon">
+                <i onclick="envio('interfaz 2.html')" class="material-icons">keyboard_backspace</i>
+            </div>
+            <div class="bar_text">
+                Parqueadero
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_disp">
+                <div class="content_disp_title">
+                    Parqueaderos disponibles:
+                </div>
+                <div class="content_disp_text">
+                    <div class="numero_park">
+                        20
+                    </div>
+                    <div>
+                        /370
+                    </div>
+                </div>
+            </div>
+            <div class="content_map">
+                <div class="content_map_title">
+                    Mapa de disponibilidad de zonas de parqueo
+                </div>
+                <div class="content_map_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d531.3006473916128!2d-76.51931317808172!3d3.353691707441551!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1535388508048" width="99.7%" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="content_map_info">
+                    <div class="square_green"></div>
+                    <div>Disponible</div>
+                    <div class="square_red"></div>
+                    <div>Ocupado</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

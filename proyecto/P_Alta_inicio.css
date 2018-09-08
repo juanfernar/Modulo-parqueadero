@@ -1,0 +1,52 @@
+.body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg{
+    height: 667px;
+    position: absolute;
+    filter: blur(2px);
+}
+.logo{
+    margin-top: 105px;
+}
+.input_part{
+    border-radius: 11px;
+    border: 1px solid;
+    border-color: #747474;
+    height: 33px;
+    font-size: 14px;
+    width: 233px;
+}
+.usuario{
+    margin-top: 15px;
+}
+.contra{
+    margin-top: 15px;
+}
+.text{
+    color: white;
+    margin-top: 15px;
+}
+.text1{
+    color: white;
+    margin-top: 6px;
+}
+.ingresar {
+    margin-top: 18px;
+    background-color: #f44236;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

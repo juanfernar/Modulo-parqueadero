@@ -1,0 +1,177 @@
+.body{
+    margin: 0px;
+}
+
+.bar{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f44236;
+    /* position: fixed;
+    top: 0; */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding-bottom: 5%;
+    border-top-width: 5%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 2px 5px gray;
+    z-index: 1;
+}
+
+.bar1{
+    width: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.bar2{
+    font-size: 16px;
+    margin-top: 0.2rem;
+    width: 70%;
+}
+
+/* .cuerpo{
+    display: flex;
+    justify-content: center;
+} */
+
+div.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-shadow: 5px 8px 5px #efefef;
+    margin:1rem;
+    overflow: hidden;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 #efefef/*rgba(0,0,0,0.2)*/;
+    border-radius: 5px;
+}
+
+.residente_papa{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 60%;
+}
+
+.residente_hijo{
+    width: 100%;
+    height: 100%;
+}
+
+div.info{
+    position: absolute;
+    background: rgb(0 , 0 ,0 , 0.7);    
+    opacity: 1;
+    width: 91%;
+    color: #ffffff;
+    padding-top: 15px;
+    border-bottom-width: 15px;
+    padding-bottom: 15px;
+}
+
+.info_hijo1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container2{
+    padding-left: 70%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -60rem;
+    width: 85%;
+    height: 100%;
+    z-index: 2;
+}
+
+
+.menu_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-image: linear-gradient(#ce0101,#b50101, #8c0000);
+    color: #ffffff;
+}
+
+.menu_3{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    background: white;
+    z-index: 1;
+    font-family: 'Roboto';
+}
+
+.dropdown{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.dropdown-content{
+    display: none;
+    flex-direction: column;
+    font-weight: normal;
+    margin-left: 1.5rem;
+}
+.fondo_blur{
+    width: 100%;
+    height: 667px;
+    background-color: black;
+    position: absolute;
+    display: none;
+    opacity: 0.7;
+}
+
+/* .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 100%;
+    box-shadow: 0px 8px 16 px 0px rgba(0, 0, blue,0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+#dropdown input{
+    display: block;
+    position: absolute;
+    width: 
+} */
