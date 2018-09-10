@@ -98,7 +98,18 @@ function transp(){
 }
 
 function envio(e){
-    window.location = e;
+    var stUsuario = document.getElementById("usuario");
+    var stContraseña = document.getElementById("contraseña");
+    var blCheck = document.getElementById("check");
+    // blCheck.checked = true;
+    // console.log(blCheck.value);
+
+    if(stUsuario == "" || stContraseña == "" || blCheck.checked == false ){
+        
+    }else{
+        window.location = e;
+    }
+    
 }
 
 
