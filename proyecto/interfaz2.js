@@ -98,6 +98,10 @@ function transp(){
 }
 
 function envio(e){
+    window.location = e;
+}
+
+function enviar(e){
     var stUsuario = document.getElementById("usuario");
     var stContraseña = document.getElementById("contraseña");
     var blCheck = document.getElementById("check");
@@ -109,7 +113,6 @@ function envio(e){
     }else{
         window.location = e;
     }
-    
 }
 
 
